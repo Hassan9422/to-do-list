@@ -1,10 +1,12 @@
 # to-do-list
 **Overview**:
+
 This is an API for a to-do-list web application. We have designed it using FastAPI framework in python language.
 In our application, a user can register with his email and password, and then a user can do any CRUD operation on tasks by passing
 "title" and "content" of the task when it's needed.
 
 **Features**:
+
 This API can register a user in the applicaation and then each user can create/read/update/delete any task he wants.
 our API is able to return us the list of all tasks created by a user and also the number of tasks that each user has created.
 For security measures, Each user is able to only read/update/delete his own tasks. but he can see the "number of tasks"
@@ -15,7 +17,9 @@ and protecting desired API resources.
 
 
 **How to Use**:
+
 we can run the application using command below:
+
 uvicorn app.main:app --reload
 
 In this task, we used "requests" library to check the different endpoints, just to keep all things in one directory.
@@ -27,4 +31,5 @@ To use swagger UI, we can simply put URL below into our browser(defualt port is 
 All environment variables have been defined in ".env" file.
 
 **Requirements**:
+
 All needed libraries and dependencies can be found and installed from requirements.txt file.
