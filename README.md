@@ -27,6 +27,7 @@ but any other application or platform could be used to do this, for example: Pos
 So, we can test different endpoints using files in app\requests directory. we have to just choose the endpoint we want to
 send an HTTP request to, and comment out other endpoints, according to the comments explanations.
 To use swagger UI, we can simply put URL below into our browser(defualt port is 8000):
+
 127.0.0.1:port/docs
 All environment variables have been defined in ".env" file.
 
