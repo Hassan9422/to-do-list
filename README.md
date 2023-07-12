@@ -26,7 +26,6 @@ uvicorn app.main:app --reload
 
 In this task, we used "requests" library to check the different endpoints, just to keep all things in one directory.
 but any other application or platform could be used to do this, for example: Postman, Swagger UI, etc.
-
 So, we can test different endpoints using files in app\requests directory. we have to just choose the endpoint we want to
 send an HTTP request to, and comment out other endpoints, according to the comments explanations.
 
